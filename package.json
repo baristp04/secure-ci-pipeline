@@ -1,0 +1,27 @@
+{
+  "name": "secure-ci-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Inventory REST API used as the target of the Secure CI Pipeline course project",
+  "type": "module",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "lodash": "4.17.20",
+    "minimist": "1.2.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "eslint": "^9.17.0",
+    "globals": "^15.14.0"
+  }
+}
