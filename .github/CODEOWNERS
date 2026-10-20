@@ -1,0 +1,8 @@
+# Last matching pattern wins. Everything defaults to the repo owner;
+# the explicit rules below keep critical paths owned even if the default changes.
+*                    @baristp04
+
+/.github/            @baristp04
+/.github/workflows/  @baristp04
+/package.json        @baristp04
+/package-lock.json   @baristp04
